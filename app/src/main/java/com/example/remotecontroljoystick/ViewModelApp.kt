@@ -5,7 +5,7 @@ import androidx.databinding.Bindable
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 
-class viewModel : ViewModel() {
+class ViewModelApp : ViewModel() {
 /**
     // The IP and Port properties
     private var _editPort = MutableLiveData<Int>()
